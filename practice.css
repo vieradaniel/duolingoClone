@@ -44,14 +44,44 @@ main{
     display:flex;
     justify-content:center;
     align-items:center;
+    
 }
 .lesson-icon-picture{
     height:4rem;
     width:4rem;
     background-color:#03DAC5;
 }
+.lesson-menu{
+    width:90%;
+    height:18rem;
+    border:2px solid #e5e5e5;
+    position:absolute;
+    top:12rem;
+    left:1rem;
+    background:#03DAC5;
+    display: none;
+    flex-direction: column;
+    justify-content:space-around;
+    padding:1rem;
+    
+}
+.show{
+    display:flex;
+}
+.lesson-menu-button-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 7rem;
+}
+
+.button{
+    padding:0.5rem;
+    background:#FFF;
+}
 
 footer{
+   
     border-top:2px solid #e5e5e5;
     display: flex;
     justify-content: space-around;
