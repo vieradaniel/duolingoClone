@@ -17,6 +17,39 @@ header{
     margin-right:1rem;
 }
 
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2rem;
+    margin-top: 4rem;
+    padding:0 2rem;
+}
+.unit{
+    display:flex;
+}
+.lesson{
+    height:8rem;
+    width:6rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+.lesson-icon-border{
+    height:5rem;
+    width:5rem;
+    border: 5px solid #e5e5e5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.lesson-icon-picture{
+    height:4rem;
+    width:4rem;
+    background-color:#03DAC5;
+}
+
 footer{
     border-top:2px solid #e5e5e5;
     display: flex;
